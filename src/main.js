@@ -1,6 +1,6 @@
 import { pingPong2 } from './ping-pong-2';
 
-document).ready(function() {
+$(document).ready(function() {
   $('#ping-pong-2-form').submit(function(event) {
     event.preventDefault();
     const goal = $('#goal').val();
